@@ -1,0 +1,87 @@
+html,body{
+    height: 100%;
+}
+
+/* css de l'acceuil */
+.bgcolor{
+    background-color: #2b3324;
+}
+.titre{
+   color: #2b3324 ;
+    font-style: inherit;
+    padding: 30px;
+}
+.arme{
+    color: #332f00;
+    background-color: #bcb4a9;
+}
+.text{
+    color: #deba00;
+    font-size: 25px;
+    text-shadow: 1px 2px #bc9900;
+    background-color: #188cbc;
+}
+.bgrifles{
+    background-color: #efc293;
+}
+.bglevier{
+    background-color: #866549;
+}
+.bgverrou{
+    background-color: #4e5658;
+}
+.bgsemi-auto{
+    background-color: #5f4b24;
+}
+.bgpompe{
+    background-color: #4e4447;
+}
+.bgbascule{
+    background-color: #755d16;
+}
+.formulaire{
+    color: #bcb4a9;
+}
+.bgEnd{
+    background-color: #464c52;
+}
+
+
+/* css de l'equipement de chasse */
+.parallax {
+    /* L’image du Parallax */
+    background-image: url(".././img/forest_background.jpg");
+
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg {
+    background-size: cover;
+}
+.bg::after {
+    content: "";
+    background-image: url("../img/bart.jpg");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+.equipement{
+    color: #ff0300;
+    font: italic bold 12px/30px new roman, serif;
+    font-size: 50px;
+}
+.bg3{
+    background-image: url(".././img/chasse-chevreuil.jpg");
+    background-repeat: no-repeat;
+}

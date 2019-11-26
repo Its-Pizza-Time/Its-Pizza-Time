@@ -1,0 +1,16 @@
+html, body {
+    font-size: 20px;
+}
+.titre {
+    font-size: 1.3rem;
+}
+.bgCouleur{
+    background-image: url(".././img/background/bbImg.jpg");
+}
+.padding{
+    margin-top: 50px;
+    padding: 50px 30px 50px 30px;
+}
+html, body{
+    background-image: url(".././img/bgBody.jpg");
+}

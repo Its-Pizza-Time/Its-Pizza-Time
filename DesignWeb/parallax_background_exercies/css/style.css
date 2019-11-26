@@ -1,0 +1,54 @@
+html,body {height:100%;}
+
+.bg {
+    background-size: cover;
+}
+.bg::after {
+    content: "";
+    background-image: url("../img/chambre_du _kurhotel_rogener.jpg");
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.parallax {
+    /* L’image du Parallax */
+    background-image: url("../img/chambre_du _kurhotel_rogener.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("../img/veille_cabane_du_lac_d'obersee.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    background-image: url("../img/pacific_northwest_coast.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.titre{
+    color: #8de046;
+}

@@ -1,0 +1,15 @@
+.box1{
+    background-image: url(".././img/Pikachu.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 20rem;
+}
+.bigbox{
+    overflow: hidden;
+    min-height: 20rem;
+
+}
+.titre1{
+    padding-top: 10rem;
+}

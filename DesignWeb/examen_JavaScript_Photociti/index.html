@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <title></title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"defer></script>
+    <script src="js/jquery-3.4.1.min.js" defer></script>
+    <script src="js/bootstrap.js" defer></script>
+    <link rel="icon" type="image/png" href="img/spongebob.jpg" sizes="512x512"/>
+    <script src="js/modif.js" defer></script>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row no-gutters">
+        <div class="col-xl-2">
+        </div>
+        <div class="col-xl-6">
+            <div class="form-group">
+                <label for="mots"><i class="far fa-keyboard fa-2x"></i><b class="titre"> Entrez votre mot</b></label>
+                <div class="row no-gutters">
+                    <div class="col-xl-10">
+                        <input type="text" class="form-control" id="mots" placeholder="Entrez un mot entre 3 et 12 caractères">
+                    </div>
+                    <div class="col-xl-2">
+                        <button type="button" class="btn btn-dark boutonGO" id="boutonGo">GO</button>
+                    </div>
+                    <small id="caractSpeciaux" class="form-text text-muted"><b>Utilisez * pour les caracteres speciaux.</b></small>
+                </div>
+                <div class="col-xl-2">
+                    <button type="button" class="btn btn-primary bg-info" data-toggle="modal" data-target="#couleurModal">
+                    Couleur
+                </button>
+                    <div class="modal" tabindex="-1" role="dialog" id="couleurModal">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Choix de couleur pour le fond</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <button id="bgBlanc" class="bgBlancClass">blanc</button>
+                                    <button id="bgBleu" class="bgBleuClass">bleu</button>
+                                    <button id="bgBleuFonce" class="bgBleuFonceClass">bleu Fonce</button>
+                                    <button id="bgGris" class="bgGrisClass">gris</button>
+                                    <button id="bgNoir" class="bgNoirClass">noir</button>
+                                    <button id="bgRose" class="bgRoseClass">rose</button>
+                                    <button id="bgRouge" class="bgRougeClass">rouge</button>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">ok</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <div class="container-fluid">
+     <div class="row no-gutters bgCouleur padding">
+         <div class="col" id="lettre0"><img class="img-fluid" src="img/J/J5.jpg"/></div>
+         <div class="col" id="lettre1"><img class="img-fluid" src="img/A/A5.jpg"/></div>
+         <div class="col" id="lettre2"><img class="img-fluid" src="img/V/V5.jpg"/></div>
+         <div class="col" id="lettre3"><img class="img-fluid" src="img/A/A4.jpg"/></div>
+         <div class="col" id="lettre4"><img class="img-fluid" src="img/S/S5.jpg"/></div>
+         <div class="col" id="lettre5"><img class="img-fluid" src="img/C/C5.jpg"/></div>
+         <div class="col" id="lettre6"><img class="img-fluid" src="img/R/R5.jpg"/></div>
+         <div class="col" id="lettre7"><img class="img-fluid" src="img/I/I5.jpg"/></div>
+         <div class="col" id="lettre8"><img class="img-fluid" src="img/P/P5.jpg"/></div>
+         <div class="col" id="lettre9"><img class="img-fluid" src="img/T/T5.jpg"/></div>
+         <div class="col" id="lettre10"><img class="img-fluid" src="img/S/S5.jpg"/></div>
+         <div class="col" id="lettre11"><img  class="img-fluid" src="img/S/S5.jpg"/></div>
+        </div>
+ </div>
+
+
+</body>
+</html>
