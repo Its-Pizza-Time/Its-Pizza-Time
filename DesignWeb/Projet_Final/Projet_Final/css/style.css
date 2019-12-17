@@ -1,0 +1,55 @@
+html,body{
+    margin:0;
+    height:100%;
+    background-color: #080910;
+}
+.bgcolor{
+    background-color: rgba(6,6,6,0.79);
+}
+.bg{
+    margin-top: 15px;
+}
+h2{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 45px;
+    color: #02005c;
+}
+.hr1{
+    margin-bottom:30px;
+    margin-top:20px;
+    max-width: 50%;
+    border-width: 5px;
+    border-color: rgba(131,113,27,0.92)
+}
+
+.margin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    color: #3c3e3e;
+}
+.bgSideImg{
+    background-color: #141a2e;
+}
+.parallax {
+    background-image: url(".././img/drift_cloud.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxQuestion {
+    background-image: url(".././img/tokyo_drift.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#instagram,#pinterest,#twitter,#facebook{
+    color: #5dc03a;
+}
